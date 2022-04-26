@@ -1,0 +1,20 @@
+
+วัตถุประสงค์ของงานวันที่ 11 เมษา 2565  คือ การนำความรู้จากตัวอย่างที่ผ่านมาไปประยุกต์ใช้ร่วมกับ dev express gridcontrol
+ เพื่อจำลองการทำงานร่วมกันระหว่าง sql depency, signalr และ dev express grid control 
+
+	การทำงานแบบออกเป็น 3 ส่วนหลัก ๆ
+	1 ส่วนที่ตรวจสอบ change ที่เกิดขึ้นกับ table ของ data base เช่นมีการ insert,update,delete ทำผ่าน lib ที่ชื่อ  SqlTableDependency
+	2 ส่วนของ SignalR Hub server จะทำหน้าที่ส่งข้อมูลที่เปลี่ยนเปลงล่าสุดไปให้ Client หรือ เรียก เมธอดบนเครื่อง Client เพื่อให้ UI เปลี่ยนตามข้อมูลล่าสุด
+	3 ส่วนของ SignalR Clinet ส่วนนี้จะเป็นส่วนย่อยของโปรแกรมที่เป็น Windows form ที่มี grid control ของ dev expresss
+ที่เชื่อมต่อกับ SignalR Hub ซึ่งตัว grid control จะ update ui ตามข้อมูลที่เปลี่ยนไปตามสถานะต่าง ๆ
+	4 ปรับ code ให้ดีขึ้น เช่น ส่ง parameter เป็น type ที่เป็นข้อมูลของ row นั้น ๆ ที่ change ,signalR strongly type 
+
+
+
+update [dbo].[LoadTruckMatch] set amount = 55 where id=1
+
+update [dbo].[Ticket] set amount = 6 where id=1
+
+
+insert into Ticket(id,_Status,Amount,CustomerNo,LoadNo,SaleOrderNo) values(3,2,8.5,'Cus000032333','LO03234233','SO823323455');
+insert into [LoadTruckMatch] (id,SaleOrderNo,SoldToNo,MixdesignNo,Amount) values(3,'SP049032323','SON003233','MIX0003233',6);

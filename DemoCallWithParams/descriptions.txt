@@ -1,0 +1,5 @@
+objective
+
+ 1 Call hub methods from the client.
+ 2 Call client methods from the hub.
+ 3 Strongly typed hubs

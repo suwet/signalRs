@@ -1,0 +1,1 @@
+Insert values:	name:higyna	age:5         Update values:	name:kuka	age:4         Update values:	name:kukas	age:6         

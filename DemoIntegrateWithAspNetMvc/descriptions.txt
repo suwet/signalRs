@@ -1,0 +1,4 @@
+objective
+
+ 1 Demo intregate with asp.net mvc
+ 2 Demo Noitification when customer buy item

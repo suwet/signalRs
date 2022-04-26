@@ -1,0 +1,6 @@
+﻿
+package install
+
+install-package Microsoft.AspNet.SignalR.Client
+
+https://www.thaicreate.com/community/signalr-window-form.html

@@ -1,0 +1,16 @@
+2565:04:16 10:24:25 : SO823399342  Delete
+
+2565:04:16 10:25:10 : You have been disconnected.
+2565:04:16 10:25:12 : Unable to connect to server : Start server before connectiong clients.
+2565:04:16 10:25:48 : S082332  Delete
+
+2565:04:16 10:25:48 : S082332  Delete
+
+2565:04:16 10:26:04 : C083223  Update
+
+2565:04:16 10:26:04 : C083223  Update
+
+2565:04:16 10:26:38 : SO92323322  Insert
+
+2565:04:16 10:26:38 : SO92323322  Insert
+

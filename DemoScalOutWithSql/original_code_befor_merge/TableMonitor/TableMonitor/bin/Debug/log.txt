@@ -1,0 +1,1 @@
+Update values:	name:senthil	age:101       Update values:	name:senthil	age:30        Insert values:	name:Monk	age:300       Update values:	name:senthil	age:55        Delete values:	name:senthil	age:55        Update values:	name:kuker	age:3         Update values:	name:hiyena	age:3         

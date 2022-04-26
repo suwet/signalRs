@@ -1,0 +1,4 @@
+objective
+
+ 1 Demo Connect SignalR SignalR hub using dotnet client c#
+ 2 Demo call SignalR hub using dotnet client c#

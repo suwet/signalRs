@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">ขายสินค้า</h1>
+   
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="https://cf.shopee.co.th/file/a6f8127f3fc76ab88e13507c29261336" width="90%">
+        </div>
+         <div class="col-md-8">
+            <div class="row">
+                <form asp-controller="Home" asp-action="Buy">
+                    <label>ชื้อสินค้า</label>
+                    <input class="form-control" type="text" name="ItemName">
+                    </br>
+                     <label>จำนวน</label>
+                    <input class="form-control" type="numeric" name="Amount">
+                    </br>
+                    <label>ราคา</label>
+                    <input class="form-control" type="text" name="Price">
+                    </br>
+                    </hr>
+                    <button  type="button" disabled class="btn btn-dark">เพิ่มไปยังรถเข็น</button>
+                    <button type="submit" class="btn btn-primary">ซื้อสินค้า</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>

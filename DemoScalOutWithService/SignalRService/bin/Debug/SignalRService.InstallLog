@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\vs_2019\SignalRs\DemoScalOutWithService\SignalRService\bin\Debug\SignalRService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\vs_2019\SignalRs\DemoScalOutWithService\SignalRService\bin\Debug\SignalRService.InstallLog
+   assemblypath = D:\vs_2019\SignalRs\DemoScalOutWithService\SignalRService\bin\Debug\SignalRService.exe
+Installing service DemoSignalRService...
+Service DemoSignalRService has been successfully installed.
+Creating EventLog source DemoSignalRService in log Application...
+Committing assembly 'D:\vs_2019\SignalRs\DemoScalOutWithService\SignalRService\bin\Debug\SignalRService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\vs_2019\SignalRs\DemoScalOutWithService\SignalRService\bin\Debug\SignalRService.InstallLog
+   assemblypath = D:\vs_2019\SignalRs\DemoScalOutWithService\SignalRService\bin\Debug\SignalRService.exe

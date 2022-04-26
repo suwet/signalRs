@@ -1,0 +1,2 @@
+2565:04:19 09:51:50 : You have been disconnected.
+2565:04:19 09:51:53 : Unable to connect to server : Start server before connectiong clients.
