@@ -1,0 +1,10 @@
+﻿
+package install 
+
+install-package Microsoft.AspNet.SignalR
+Install-Package Microsoft.Owin.Cors
+Install-Package Microsoft.Owin.Hosting
+Install-Package Microsoft.Owin.Host.HttpListener
+
+
+https://www.thaicreate.com/community/signalr-window-form.html
